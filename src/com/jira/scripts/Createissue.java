@@ -25,13 +25,11 @@ import org.testng.annotations.Test;
 
 import com.jira.generic.WaitstatementLib;
 
-
-
 public class Createissue  
-
 {
-   
 	public static WebDriver driver;
+	
+	//Using testng xml********************************************************************************************
 	
     @Test
 	public void createIssue() throws EncryptedDocumentException, InvalidFormatException, FileNotFoundException, IOException
